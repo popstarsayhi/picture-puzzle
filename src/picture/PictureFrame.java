@@ -72,7 +72,7 @@ public class PictureFrame extends JFrame {
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
                 //create Jlabel object and load the picture
-                JLabel imageLabel = new JLabel(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\" + data[i][j] + ".png"));
+                JLabel imageLabel = new JLabel(new ImageIcon("...\\src\\picture\\images\\" + data[i][j] + ".png"));
                 imageLabel.setBounds(j * 90, i * 90, 90, 90);
                 imagePanel.add(imageLabel);
             }
@@ -80,36 +80,36 @@ public class PictureFrame extends JFrame {
         this.add(imagePanel);
 
         //reference picture
-        JLabel refLabel = new JLabel(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\ref.png"));
+        JLabel refLabel = new JLabel(new ImageIcon("...\\src\\picture\\images\\ref.png"));
         refLabel.setBounds(574, 114, 122, 121);
         this.add(refLabel);
 
         //buttons
-        upBtn = new JButton(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\up.png"));
+        upBtn = new JButton(new ImageIcon("...\\src\\picture\\images\\up.png"));
         upBtn.setBounds(732, 265, 57, 57);
         this.add(upBtn);
 
-        downBtn = new JButton(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\down.png"));
+        downBtn = new JButton(new ImageIcon("...\\src\\picture\\images\\down.png"));
         downBtn.setBounds(732, 347, 57, 57);
         this.add(downBtn);
 
-        leftBtn = new JButton(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\left.png"));
+        leftBtn = new JButton(new ImageIcon("...\\src\\picture\\images\\left.png"));
         leftBtn.setBounds(650, 347, 57, 57);
         this.add(leftBtn);
 
-        rightBtn = new JButton(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\right.png"));
+        rightBtn = new JButton(new ImageIcon("...\\src\\picture\\images\\right.png"));
         rightBtn.setBounds(813, 347, 57, 57);
         this.add(rightBtn);
 
-        helpBtn = new JButton(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\help.png"));
+        helpBtn = new JButton(new ImageIcon("...\\images\\help.png"));
         helpBtn.setBounds(626, 444, 108, 45);
         this.add(helpBtn);
 
-        resetBtn = new JButton(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\reset.png"));
+        resetBtn = new JButton(new ImageIcon("...\\src\\picture\\images\\reset.png"));
         resetBtn.setBounds(786, 444, 108, 45);
         this.add(resetBtn);
 
-        JLabel backgroundLabel = new JLabel(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\background.png"));
+        JLabel backgroundLabel = new JLabel(new ImageIcon("...\\src\\picture\\images\\background.png"));
         backgroundLabel.setBounds(0, 0, 960, 530);
         this.add(backgroundLabel);
     }
@@ -157,7 +157,7 @@ public class PictureFrame extends JFrame {
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
                 //create Jlabel object and load the picture
-                JLabel imageLabel = new JLabel(new ImageIcon("E:\\Data Study Contents\\IDEA\\heima\\src\\picture\\images\\" + data[i][j] + ".png"));
+                JLabel imageLabel = new JLabel(new ImageIcon("...\\src\\picture\\images\\" + data[i][j] + ".png"));
                 imageLabel.setBounds(j * 90, i * 90, 90, 90);
                 imagePanel.add(imageLabel);
             }
